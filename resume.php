@@ -87,7 +87,7 @@
 											</p>
 											<p>
 												<b>Comentarios:</b>
-												Actualmente soy egresado de la carrera, pero falta poco para defender y así recibir el título.
+												A la espera de mi título.
 											</p>
 										</div>
 									</p>
@@ -129,12 +129,33 @@
 						<div class="post">
 							<div class="post-content">
 								<h1 class="title">Professional Profile</h1>
-								<div class="entry">
+								<!-- <div class="entry"> -->
+								<div style="padding-left: 50px;">
 									<p>
-										Egresado de
-										<b>Ingeniería en Computación e Informática</b>
-										de la Universidad Andrés Bello y Apasionado por todo lo que tenga que ver con las tecnologías web. Soy desarrollador de plataformas web basadas en el lenguaje PHP/MySQL. También 'le pego' al diseño de los sitios web en los que he trabajado, utilizando HTML/CSS y ocasionalmente JavaScript. Actualmente aventurado a aprender HTML5, CSS3 jQuery y Responsive Design.
+										<b>Ingeniero en Computación e Informática</b> de la Universidad Andrés Bello. 
 									</p>
+									<p>
+										Apasionado por todo lo que tenga que ver con las tecnologías web. 
+									</p>
+									<p>
+										Soy desarrollador de plataformas web basadas en el lenguaje <a href="<?php echo path_blog_tag; ?>php">PHP</a>/<a href="<?php echo path_blog_tag; ?>mysql">MySQL</a>.
+									</p>
+									<p>
+										También 'le pego' al diseño de los sitios web en los que he trabajado.
+										<ul style="padding-left: 10px;">
+											<li>Maqueteo en <a href="<?php echo path_blog_tag; ?>html">HTML</a> (Actualmente aprendiendo <b>HTML5</b>)</li>
+											<li>Aplico diseño con <a href="<?php echo path_blog_tag; ?>css">CSS</a> (Actualmente aprendiendo <b>CSS3</b>)</li>
+											<li>Ocasionalmente uso <a href="<?php echo path_blog_tag; ?>js">JavaScript</a> (Siempre aprendo más de él y del framework jQuery)</li>
+											<li>Aprendiendo Responsive Design y Elastic Design.</li>
+										</ul>
+									</p>
+									<p>
+										Mi Inglés es básico pero estoy haciendo un curso para subir mi nivel.
+									</p>
+									<p>
+										Me gusta aprender cosas nuevas. Así que si no se algo, daré mi 110% para aprenderlo.
+									</p>
+									<p style="float: right">Seba<b>Thomson</b>.</p>
 								</div>
 							</div>
 						</div>
@@ -151,52 +172,43 @@
 									<p>
 										<div class="usercol">
 											<p>
-												<span class="anio">PHP 5</span>
-												(Framework
-												<b>Symfony 1.4</b>
-												)
+												<span class="anio"><a href="<?php echo path_blog_tag; ?>php">PHP</a></span>
 											</p>
 											<p>
 												<div class="progress progress-striped">
-													<div class="bar" style="width: 70%;"></div>
+													<div class="bar" style="width: 75%;"></div>
 												</div>
+											</p>
+											<p>
+												<b>Symfony 1.4</b>: Intermedio
 											</p>
 										</div>
 										<div class="usercol">
 											<p>
-												<span class="anio">SQL</span>
-												(
-												<b>MySQL</b>
-												)
+												<span class="anio"><a href="<?php echo path_blog_tag; ?>python">Python</a></span>
 											</p>
 											<p>
 												<div class="progress progress-striped">
-													<div class="bar" style="width: 70%;"></div>
+													<div class="bar" style="width: 25%;"></div>
 												</div>
+											</p>
+											<p>
+												<b>Django</b>: Básico
 											</p>
 										</div>
 										<div class="clear"></div>
-										<div class="usercol">
-											<p>
-												<span class="anio">Java</span>
-											</p>
-											<p>
-												<div class="progress progress-striped">
-													<div class="bar" style="width: 10%;"></div>
-												</div>
-											</p>
-										</div>
+										<hr>
 										<div class="usercol">
 											<p>
 												<span class="anio">SQL</span>
-												(
-												<b>PL/SQL</b>
-												)
 											</p>
 											<p>
 												<div class="progress progress-striped">
-													<div class="bar" style="width: 10%;"></div>
+													<div class="bar" style="width: 75%;"></div>
 												</div>
+											</p>
+											<p>
+												<b>MySQL</b>: Intermedio
 											</p>
 										</div>
 									</p>
@@ -212,44 +224,46 @@
 									<p>
 										<div class="usercol">
 											<p>
-												<span class="anio">HTML</span>
-												(Aprendiendo
-												<b>HTML5</b>
-												)
+												<span class="anio"><a href="<?php echo path_blog_tag; ?>html">HTML / HTML5</a></span>
 											</p>
 											<p>
-												<div class="progress progress-striped">
-													<div class="bar" style="width: 95%;"></div>
+												<div class="progress progress-success progress-striped">
+													<div class="bar" style="width: 75%;"></div>
 												</div>
+											</p>
+											<p>
+												<b>HTML</b>: Avanzado
+												<b>HTML5</b>: Intermedio
 											</p>
 										</div>
 										<div class="usercol">
 											<p>
-												<span class="anio">CSS</span>
-												(Framework
-												<b>Bootstrap</b>
-												| Aprendiendo
-												<b>CSS3</b>
-												)
+												<span class="anio"><a href="<?php echo path_blog_tag; ?>css">CSS / CSS3</a></span>
 											</p>
 											<p>
-												<div class="progress progress-striped">
-													<div class="bar" style="width: 90%;"></div>
+												<div class="progress progress-success progress-striped">
+													<div class="bar" style="width: 75%;"></div>
 												</div>
+											</p>
+											<p>
+												<b>CSS</b>: Avanzado
+												<b>CSS3</b>: Intermedio
+												<b>Bootstrap</b>: Intermedio
 											</p>
 										</div>
 										<div class="clear"></div>
+										<hr>
 										<div class="usercol">
 											<p>
-												<span class="anio">JavaScript</span>
-												(Framework
-												<b>jQuery</b>
-												)
+												<span class="anio"><a href="<?php echo path_blog_tag; ?>js">JavaScript</a></span>
 											</p>
 											<p>
-												<div class="progress progress-striped">
-													<div class="bar" style="width: 40%;"></div>
+												<div class="progress progress-success progress-striped">
+													<div class="bar" style="width: 25%;"></div>
 												</div>
+											</p>
+											<p>
+												<b>jQuery</b>: Básico
 											</p>
 										</div>
 									</p>
@@ -268,18 +282,18 @@
 												<span class="anio">Netbeans</span>
 											</p>
 											<p>
-												<div class="progress progress-striped">
-													<div class="bar" style="width: 90%;"></div>
+												<div class="progress progress-warning progress-striped">
+													<div class="bar" style="width: 95%;"></div>
 												</div>
 											</p>
 										</div>
 										<div class="usercol">
 											<p>
-												<span class="anio">Sublime Text 2</span>
+												<span class="anio"><a href="<?php echo path_blog_tag; ?>">Sublime Text 2</a></span>
 											</p>
 											<p>
-												<div class="progress progress-striped">
-													<div class="bar" style="width: 90%;"></div>
+												<div class="progress progress-warning progress-striped">
+													<div class="bar" style="width: 95%;"></div>
 												</div>
 											</p>
 										</div>
@@ -299,8 +313,8 @@
 												<span class="anio">Windows XP/7</span>
 											</p>
 											<p>
-												<div class="progress progress-striped">
-													<div class="bar" style="width: 90%;"></div>
+												<div class="progress progress-danger progress-striped">
+													<div class="bar" style="width: 75%;"></div>
 												</div>
 											</p>
 										</div>
@@ -309,11 +323,74 @@
 												<span class="anio">Word/Excel/Pont</span>
 											</p>
 											<p>
-												<div class="progress progress-striped">
-													<div class="bar" style="width: 90%;"></div>
+												<div class="progress progress-danger progress-striped">
+													<div class="bar" style="width: 75%;"></div>
 												</div>
 											</p>
 										</div>
+									</p>
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+						<div class="hr clear"></div>
+						<div class="post">
+							<div class="post-content">
+								<h1 class="title title-two">*Niveles</h1>
+								<div class="entry">
+									<p>
+										<div class="threecol-one">
+											<p>
+												<span class="anio">Básico</span>
+											</p>
+										</div>
+										<div class="threecol-two">
+											<p>
+												<div class="progress progress-striped">
+													<div class="bar" style="width: 25%;"></div>
+												</div>
+											</p>
+										</div>
+										<div class="clear"></div>
+										<div class="threecol-one">
+											<p>
+												<span class="anio">Intermedio</span>
+											</p>
+										</div>
+										<div class="threecol-two">
+											<p>
+												<div class="progress progress-striped">
+													<div class="bar" style="width: 50%;"></div>
+												</div>
+											</p>
+										</div>
+										<div class="clear"></div>
+										<div class="threecol-one">
+											<p>
+												<span class="anio">Intermedio-Avanzado</span>
+											</p>
+										</div>
+										<div class="threecol-two">
+											<p>
+												<div class="progress progress-striped">
+													<div class="bar" style="width: 75%;"></div>
+												</div>
+											</p>
+										</div>
+										<div class="clear"></div>
+										<div class="threecol-one">
+											<p>
+												<span class="anio">Avanzado</span>
+											</p>
+										</div>
+										<div class="threecol-two">
+											<p>
+												<div class="progress progress-striped">
+													<div class="bar" style="width: 95%;"></div>
+												</div>
+											</p>
+										</div>
+										<div class="clear"></div>
 									</p>
 									<div class="clear"></div>
 								</div>
@@ -334,24 +411,31 @@
 											<p>
 												<span class="anio">2012</span>
 												<br />
-												Nov 2012
+												Sep 2012 - Mar 2013
 											</p>
 										</div>
 										<div class="fivecol-four">
 											<p>
-												<span class="titulo">Personalización de Theme WordPress</span>
+												<span class="titulo">Miembro del Equipo Desarrollador de uLearnet</span>
 												<br />
 												<b>Empresa:</b>
-												MINVU - Campamentos
+												Universidad de Chile - Programa de Gestión de la Calidad y Seguimiento de los Aprendizajes
 												<br/>
 											</p>
 											<p>
 												<b>Funciones:</b>
-												Personalización de Theme para Wordpress.
+												Diseño y desarrollo de la plataforma educativa uLearnet3.0
 											</p>
 											<p>
 												<b>Etiquetas:</b>
-												Wordpress, PHP, HTML, CSS, Javascript y jQuery.
+												<a href="<?php echo path_blog_tag; ?>php">PHP</a>, 
+												<a href="<?php echo path_blog_tag; ?>mysql">MySQL</a>, 
+												<a href="<?php echo path_blog_tag; ?>sf">Symfony 1.4</a>, 
+												<a href="<?php echo path_blog_tag; ?>html">HTML</a>, 
+												<a href="<?php echo path_blog_tag; ?>css">CSS</a>, 
+												<a href="<?php echo path_blog_tag; ?>bootstrap">Bootstrap</a>, 
+												<a href="<?php echo path_blog_tag; ?>js">Javascript</a> y 
+												<a href="<?php echo path_blog_tag; ?>jquery">jQuery</a>.
 											</p>
 										</div>
 									</p>
@@ -362,24 +446,29 @@
 											<p>
 												<span class="anio">2012</span>
 												<br />
-												Sep 2012 - Actualidad
+												Nov 2012
 											</p>
 										</div>
 										<div class="fivecol-four">
 											<p>
-												<span class="titulo">Desarrollador en PHP/MySQL</span>
+												<span class="titulo">Proyecto Desarrollo de sitio web basado en WordPress.</span>
 												<br />
 												<b>Empresa:</b>
-												uLearnet.cl
+												Ministerio de Vivienda y Urbanismo - Secretaria Ejecutiva de Campamentos
 												<br/>
 											</p>
 											<p>
 												<b>Funciones:</b>
-												Diseño y desarrollo de la plataforma educativa uLearnet3.0
+												Personalización de Theme en WordPress para sitio web..
 											</p>
 											<p>
 												<b>Etiquetas:</b>
-												PHP, MySQL, Symfony 1.4, HTML, CSS, Bootstrap, Javascript y jQuery.
+												<a href="<?php echo path_blog_tag; ?>wordpress">Wordpress</a>, 
+												<a href="<?php echo path_blog_tag; ?>php">PHP</a>, 
+												<a href="<?php echo path_blog_tag; ?>html">HTML</a>, 
+												<a href="<?php echo path_blog_tag; ?>css">CSS</a>, 
+												<a href="<?php echo path_blog_tag; ?>js">Javascript</a> y 
+												<a href="<?php echo path_blog_tag; ?>jquery">jQuery</a>.
 											</p>
 										</div>
 									</p>
@@ -439,29 +528,30 @@
 	<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$("#education").click(function () {
-			$("#tab_education").show();
-			$("#tab_profile").hide();
-			$("#tab_technical").hide();
-			$("#tab_work").hide();
+			$("#tab_education").show(1000);
+			$("#tab_profile").hide(1000);
+			$("#tab_technical").hide(1000);
+			$("#tab_work").hide(1000);
 		});
 		$("#profile").click(function () {
-			$("#tab_education").hide();
-			$("#tab_profile").show();
-			$("#tab_technical").hide();
-			$("#tab_work").hide();
+			$("#tab_education").hide(1000);
+			$("#tab_profile").show(1000);
+			$("#tab_technical").hide(1000);
+			$("#tab_work").hide(1000);
 		});
 		$("#technical").click(function () {
-			$("#tab_education").hide();
-			$("#tab_profile").hide();
-			$("#tab_technical").show();
-			$("#tab_work").hide();
+			$("#tab_education").hide(1000);
+			$("#tab_profile").hide(1000);
+			$("#tab_technical").show(1000);
+			$("#tab_work").hide(1000);
 		});
 		$("#work").click(function () {
-			$("#tab_education").hide();
-			$("#tab_profile").hide();
-			$("#tab_technical").hide();
-			$("#tab_work").show();
+			$("#tab_education").hide(1000);
+			$("#tab_profile").hide(1000);
+			$("#tab_technical").hide(1000);
+			$("#tab_work").show(1000);
 		});
+		$("#tab_technical").show();
 	</script>
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];

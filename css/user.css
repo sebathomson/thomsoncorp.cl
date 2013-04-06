@@ -1,191 +1,208 @@
-	html { margin-top: 5px !important; }
-	* html body { margin-top: 5px !important; }
-	.contenido {
-		background: url('../img/mountain.jpg');
-		height: 326px;
-		width: 100%;
-	}
+html {
+	margin-top: 5px !important;
+}
 
-	.contenido #sidebar {
-		background: rgba(0, 0, 0, 0.7);
-		float: right;
-		padding: 0px;
-		width: 40%;
-		height: 100%;
-	}
+* html body {
+	margin-top: 5px !important;
+}
 
-	.contenido #sidebar #profile-img {
-		border: solid 2px #fff;
-		display: block;
-	    margin: auto;
-	    margin-top: 30px;
-		text-align: center;
-	}
-	.contenido #sidebar #profile {
-		color: white;
-		display: block;
-	    margin: auto;
-	    padding-top: 20px;
-	    padding-bottom: 5px;
-		text-align: center;
-		font-size: 16px;
-	}
+.contenido {
+	background: url('../img/mountain.jpg');
+	height: 326px;
+	width: 100%;
+}
 
-	.contenido #sidebar ul {
-	    list-style: none;
-	    display: inline;
-	}
+.contenido #sidebar {
+	background: rgba(0, 0, 0, 0.7);
+	float: right;
+	padding: 0;
+	width: 40%;
+	height: 100%;
+}
 
-	.contenido #sidebar li {
-	    display: block;
-	    float: left;
-	    font-size: 10px;
-	    line-height:1.5;
-	    margin: 0 auto;
-	    padding: 21px 0px;
-	    padding-bottom: 22px;
-	    text-align: center;
-		width: 141px;
-	}
+.contenido #sidebar #profile-img {
+	border: solid 2px #fff;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+}
 
-	.contenido #sidebar li[id=twitter]:hover {
-		background: #02a1e3;
-	}
-	.contenido #sidebar li[id=tumblr] {
-		width: 142px;	
-	}
-	.contenido #sidebar li[id=tumblr]:hover {
-		background: #294865;
-	}
-	.contenido #sidebar li[id=facebook]:hover {
-		background: #2071b2;
-	}
+.contenido #sidebar #profile {
+	color: white;
+	display: block;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 16px;
+}
 
-/********************************************************************************************* 
+.contenido #sidebar ul {
+	list-style: none;
+	display: inline;
+}
+
+.contenido #sidebar li {
+	display: block;
+	float: left;
+	font-size: 10px;
+	line-height: 1.5;
+	margin: 0 auto;
+	padding: 21px 0;
+	padding-bottom: 22px;
+	text-align: center;
+	width: 141px;
+}
+
+.contenido #sidebar li[id=twitter]:hover {
+	background: #02a1e3;
+}
+
+.contenido #sidebar li[id=tumblr] {
+	width: 142px;
+}
+
+.contenido #sidebar li[id=tumblr]:hover {
+	background: #294865;
+}
+
+.contenido #sidebar li[id=facebook]:hover {
+	background: #2071b2;
+}
+
+/*********************************************************************************************
 
 Responsive Design
 
-*********************************************************************************************/   
+ *********************************************************************************************/
 /* Para resoluciones con WIDTH menor a 1060px*/
 @media screen and (max-width: 1060px) {
 	.contenido {
-		background: url('../img/mountain.jpg');
-		height: 326px;
-		width: 100%;
-	}
+	background: url('../img/mountain.jpg');
+	height: 326px;
+	width: 100%;
+}
 
-	.contenido #sidebar {
-		background: rgba(0, 0, 0, 0.7);
-		padding: 0px;
-		width: 40%;
-		height: 100%;
-	}
+.contenido #sidebar {
+	background: rgba(0, 0, 0, 0.7);
+	padding: 0px;
+	width: 40%;
+	height: 100%;
+}
 
-	.contenido #sidebar #profile-img {
-		margin-top: 30px;
-		width: 100px;
-		height: 100px;
-	}
-	
-	.contenido #sidebar #profile {
-		height: 45px;
-		font-size: 12px;
-		padding: 10px 5px;
-		padding-bottom: 45px;
-	}
+.contenido #sidebar #profile-img {
+	margin-top: 30px;
+	width: 100px;
+	height: 100px;
+}
 
-	.contenido #sidebar li {
-		padding: 26px 0px;
-		text-align: center;
-		width: 33%;
-	}
+.contenido #sidebar #profile {
+	height: 45px;
+	font-size: 12px;
+	padding: 10px 5px;
+	padding-bottom: 45px;
+}
 
-	.contenido #sidebar li[id=twitter]:hover {
-		background: #02a1e3;
-	}
-	.contenido #sidebar li[id=tumblr] {
-		width: 34%;
-	}
-	.contenido #sidebar li[id=tumblr]:hover {
-		background: #294865;
-	}
-	.contenido #sidebar li[id=facebook]:hover {
-		background: #2071b2;
-	}
+.contenido #sidebar li {
+	padding: 26px 0px;
+	text-align: center;
+	width: 33%;
+}
+
+.contenido #sidebar li[id=twitter]:hover {
+	background: #02a1e3;
+}
+
+.contenido #sidebar li[id=tumblr] {
+	width: 34%;
+}
+
+.contenido #sidebar li[id=tumblr]:hover {
+	background: #294865;
+}
+
+.contenido #sidebar li[id=facebook]:hover {
+	background: #2071b2;
+}
+
 }
 
 /* Para resoluciones con WIDTH menor a 700px*/
 @media screen and (max-width: 700px) {
 	#logo {
-		float: none;
-		margin: 0 auto;
-		overflow:hidden;
-	}
+	float: none;
+	margin: 0 auto;
+	overflow: hidden;
+}
 
-	#logo h1 {
-		text-align: center;
-	}
+#logo h1 {
+	text-align: center;
+}
 
-	#logo h1 a {
-		font-size: 14px;
-	}
+#logo h1 a {
+	font-size: 14px;
+}
 
-	#navbar {
-		float: none;
-		margin: 0 auto;
-		display:table;
-	}
+#navbar {
+	float: none;
+	margin: 0 auto;
+	display: table;
+}
 
-	#navbar ul{
-		list-style-type: none;
-		text-align: center;
-	}
-		
-	#navbar ul li{
-		display: inline;
-		text-align: center;
-	}
+#navbar ul {
+	list-style-type: none;
+	text-align: center;
+}
 
-	.contenido {
-		background: url('../img/mountain.jpg');
-		height: 296px;
-		width: 100%;
-	}
+#navbar ul li {
+	display: inline;
+	text-align: center;
+}
 
-	.contenido #sidebar {
-		background: rgba(0, 0, 0, 0.7);
-		padding: 0px;
-		width: 100%;
-		height: 100%;
-	}
+.contenido {
+	background: url('../img/mountain.jpg');
+	height: 296px;
+	width: 100%;
+}
 
-	.contenido #sidebar #profile-img {
-		margin-top: 30px;
-		width: 100px;
-		height: 100px;
-	}
-	
-	.contenido #sidebar #profile {
-		height: 45px;
-		font-size: 12px;
-		padding: 10px 5px;
-		padding-bottom: 45px;
-	}
+.contenido #sidebar {
+	background: rgba(0, 0, 0, 0.7);
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
 
-	.contenido #sidebar li {
-		padding: 11px 0px;
-		text-align: center;
-		width: 33%;
-	}
+.contenido #sidebar #profile-img {
+	margin-top: 30px;
+	width: 100px;
+	height: 100px;
+}
 
-	.contenido #sidebar li[id=twitter] {
-		background: #02a1e3;
-	}
-	.contenido #sidebar li[id=tumblr] {
-		background: #294865;
-		width: 34%;
-	}
-	.contenido #sidebar li[id=facebook] {
-		background: #2071b2;
-	}
+.contenido #sidebar #profile {
+	height: 45px;
+	font-size: 12px;
+	padding: 10px 5px;
+	padding-bottom: 45px;
+}
+
+.contenido #sidebar li {
+	padding: 11px 0px;
+	text-align: center;
+	width: 33%;
+}
+
+.contenido #sidebar li[id=twitter] {
+	background: #02a1e3;
+}
+
+.contenido #sidebar li[id=tumblr] {
+	background: #294865;
+	width: 34%;
+}
+
+.contenido #sidebar li[id=facebook] {
+	background: #2071b2;
+}
+
 }

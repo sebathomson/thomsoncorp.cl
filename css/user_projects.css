@@ -15,9 +15,8 @@
 		font-size: 1.5em;
 		font-weight: bold;
 	}
-	#logo {
-		float: left;
-		margin: 3px 0 5px 5px;
+	#image-project {
+		width: 90%;
 	}
 	#secondnav .trabajos, #secondnav .proyectos {
 	    float: left;
@@ -34,49 +33,8 @@
 		height: 326px;
 		width: 100%;
 	}
-	.contenido .sidebar {
-		background: rgba(0, 0, 0, 0.7);
-		height: 50%;
-		padding: 0px;
-		width: 50%;
-		display: inline-table;
-	}
-	.contenido .sidebar[id=education] {
-		float: right;
-	}
-	.contenido .sidebar[id=education]:hover {
-		background: #2B95AB;
-	}
-	.contenido .sidebar[id=profile]:hover {
-		background: #FB946E;
-	}
-	.contenido .sidebar[id=technical] {
-		float: right;
-	}
-	.contenido .sidebar[id=technical]:hover {
-		background: #474843;
-	}
-	.contenido .sidebar[id=work]:hover {
-		background: #7CA240;
-	}
-	.contenido .sidebar img{
-		float: left;
-		padding-left: 70px;
-		padding-top: 60px;
-	}
-	.contenido .sidebar span{
-		color: #fff;
-		float: left;
-		font-family: Calibri, Verdana, Arial;
-		font-size: 5em;
-		padding-left: 30px;
-		padding-top: 30px;
-	}
 	.entry p {
 		text-align: justify;
-	}
-	.description[id=tab_profile], .description[id=tab_education], .description[id=tab_technical], .description[id=tab_work] {
-		display: none;
 	}
 	.hr {
 		background: #eaeaea;
@@ -100,9 +58,6 @@
 		float: left;
 		margin-left: 5%;
 		width: 42.5%;
-	}
-	.threecol-two {
-    	width: 61%;
 	}
 /********************************************************************************************* 
 
